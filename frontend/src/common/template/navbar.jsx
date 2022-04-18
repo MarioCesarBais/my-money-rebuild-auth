@@ -25,13 +25,13 @@ class Navbar extends Component {
                             aria-expanded={this.state.open ? 'true' : 'false'}
                             className="dropdown-toggle"
                             data-toggle="dropdown">
-                            <img src="http://lorempixel.com/160/160/abstract"
+                            <img src="http://ambiel.adv.br/wp-content/uploads/2021/07/avatar-user-1.jpg"
                                 className="user-image" alt="User Image" />
                             <span className="hidden-xs">{name}</span>
                         </a>
                         <ul className="dropdown-menu">
                             <li className="user-header">
-                                <img src="http://lorempixel.com/160/160/abstract"
+                                <img src="http://ambiel.adv.br/wp-content/uploads/2021/07/avatar-user-1.jpg"
                                     className="img-circle" alt="User Image" />
                                 <p>{name}<small>{email}</small></p>
                             </li>
